@@ -130,7 +130,8 @@ class QuantumState(Layer):
 class MultiHeadQuantumState(Layer):
     def __init__(
         self,
-        n_heads=4, n_states=10, units=None, activation="tanh",
+        n_heads=4, n_states=10,
+        units=None, activation="tanh",
         hidden_dim=None, hidden_activation="tanh",
         **kwargs
     ):
